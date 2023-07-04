@@ -114,7 +114,7 @@ section nav.other a:nth-child(4) {
 /* member 1 */
 body.member1 { background-color: #ebfaff; }
 body.member1 section article.profile img {
-  box-shadow: 5px 15px 30px raba(173,216,230,.8);
+  box-shadow: 5px 15px 30px rgba(173,216,230,.8);
 }
 body.member1 section a.btnView {
   background: linear-gradient(45deg, #4affff, #35e0f7);
