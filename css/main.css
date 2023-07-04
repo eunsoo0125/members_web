@@ -1,0 +1,152 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url(./member.css);
+@font-face {
+  font-family: 'Pretendare-Regular';
+  src: url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+  
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {margin: 0; padding: 0;}
+li {list-style-type: none;}
+a { text-decoration: none; color: inherit; }
+
+body { 
+  font-family: 'Pretendard-Regular', sans-serif;
+  background-color: #defaff; 
+}
+
+section {
+  width: 340px; padding: 30px; background-color: #fff;
+  margin: 50px auto; box-shadow: 10px 40px 30px rgba(0,0,0,.1);
+}
+
+section nav.menu {
+  width: 100%
+}
+section nav.menu:after {
+  content: ""; display: block; clear: both; 
+}
+section nav.menu a {
+  font-size: 20px; color: #666;
+}
+section nav.menu a:first-child {
+  float: left;
+}
+section nav.menu a:last-child {
+  float: right;
+}
+
+section article.profile {
+  width: 100%; text-align: center; 
+}
+section article.profile img {
+  width: 200px; height: 200px; border-radius: 50%; 
+  margin-bottom: 20px; box-shadow: 5px 15px 30px rgb(173,216,230); 
+}
+
+section article.profile h1 {
+  font-weight: 700; font-size: 22px; color: #555;
+  margin-bottom: 5px; 
+}
+section article.profile h2 {
+  font-size: 12px; color: #bbb; margin-bottom: 30px; 
+}
+section a.btnView {
+  display: block; width: 180px; height: 32px; margin: 0 auto 20px;
+  background-color: #444; border-radius: 16px; font-weight: 700;
+  font-size: 10px; color: #fff; line-height: 32px; text-align: center;
+  background: linear-gradient(45deg, #4affff, #35e0f7);
+  box-shadow: 5px 10px 20px rgba(0, 255,255,.493);
+}
+
+section ul.contact {
+  margin-bottom: 25px; 
+}
+section ul.contact li {
+  width: 100%; padding: 10px 0; border-bottom: 1px solid #eee;
+}
+section ul.contact li:last-child {
+  border-bottom: none;
+}
+section ul.contact li i {
+  width: 20%; text-align: center; color: #555;
+  font-size: 15px; 
+  text-shadow: 2px 2px 2px #ddd;
+}
+section ul.contact li span {
+  color: #555; font-family : 'Orbitron', sans-serif; 
+  font-size: 12px; letter-spacing: 1px;
+}
+
+section nav.other {
+  width: 100%; text-align: center; 
+}
+section nav.other a {
+  display: inline-block; width: 30px; height: 30px; 
+  border-radius: 50%; margin: 0 10px; opacity: .4;
+  filter: saturate(.7);
+}
+section nav.other a.on {
+  opacity: 1;
+  filter: saturate(1);
+}
+section nav.other a:nth-child(1) {
+  background : #35e0f7;
+  box-shadow: 5px 5px 15px rgba(74,255,255,.7);
+} 
+section nav.other a:nth-child(2) {
+  background : #55f5cd;
+  box-shadow: 5px 5px 15px rgba(85,245,178,.7);
+} 
+section nav.other a:nth-child(3) {
+  background : #ff60df;
+  box-shadow: 5px 5px 15px rgba(255,128,223,.7);
+} 
+section nav.other a:nth-child(4) {
+  background : rgb(167,148,253);
+  box-shadow: 5px 5px 15px rgba(167,148,253,.7);
+} 
+
+/* member 1 */
+body.member1 { background-color: #ebfaff; }
+body.member1 section article.profile img {
+  box-shadow: 5px 15px 30px raba(173,216,230,.8);
+}
+body.member1 section a.btnView {
+  background: linear-gradient(45deg, #4affff, #35e0f7);
+  box-shadow: 5px 10px 20px rgba(0,255,255,.493);
+}
+
+/* member 2 */
+body.member2 { background-color: #edfaff; }
+body.member2 section article.profile img {
+  box-shadow: 5px 15px 30px #dbccb7;
+}
+body.member2 section a.btnView {
+  background: linear-gradient(45deg, #a0ff9d, #55f5b2);
+  box-shadow: 5px 10px 20px rgba(33,250,108,.3);
+}
+
+/* member 3 */
+body.member3 { background-color: #fff3fd; }
+body.member3 section article.profile img {
+  box-shadow: 5px 15px 30px rgba(252,99,214,.2);
+}
+body.member3 section a.btnView {
+  background: linear-gradient(45deg, #ef74ff, #ff11ca);
+  box-shadow: 5px 10px 20px rgba(255,17,190,.357);
+}
+
+/* member 4 */
+body.member4 { background-color: #f5f0ff; }
+body.member4 section article.profile img {
+  box-shadow: 5px 15px 30px rgba(183,82,250,.2);
+}
+body.member4 section a.btnView {
+  background: linear-gradient(45deg, #8e74ff, #a011ff);
+  box-shadow: 5px 10px 20px rgba(160,17,255,.4);
+}
